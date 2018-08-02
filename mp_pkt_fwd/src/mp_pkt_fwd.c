@@ -798,8 +798,10 @@ static int parse_gateway_configuration(const char * conf_file) {
 					char *colpos = strchr(servers[ic].addr,':');
 					*colpos = 0;
 					servers[ic].gw_port = atoi(colpos+1);
+					MSG("INFO: Got server port from server address \"%d\"\n", servers[ic].gw_port);
 				} else {
 					servers[ic].gw_port = 1883;
+					MSG("INFO: Default server port 1883\n");
 				}
 			}
 		        /* If the server was explicitly disabled, report and progress to the next entry */
