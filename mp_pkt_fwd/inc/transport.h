@@ -55,6 +55,7 @@ void transport_start();
 void transport_stop();
 void transport_data_up(int nb_pkt, struct lgw_pkt_rx_s *rxpkt, bool send_report);
 void transport_status_up(uint32_t, uint32_t, uint32_t, uint32_t);
+void transport_status();
 void transport_send_downtraf(char *json, int len);
 #endif // _TRANSPORT_H
 
