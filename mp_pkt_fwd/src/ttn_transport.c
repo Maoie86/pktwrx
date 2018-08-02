@@ -386,7 +386,7 @@ void ttn_connect(int idx) {
 	}
 	int err = ttngwc_connect(servers[idx].ttn, servers[idx].addr, servers[idx].gw_port, servers[idx].gw_key);
 	if (err != 0) {
-	    MSG("ERROR: [TTN] Connection to server \"%s\" failed, retry in %d seconds\n",servers[idx].addr,waittime);
+	    MSG("ERROR: [TTN] Connection to server \"%s\" at port %s failed, retry in %d seconds\n",servers[idx].addr,servers[idx].gw_port,waittime);
 	    ttngwc_disconnect(servers[idx].ttn);
 	    ttngwc_cleanup(servers[idx].ttn);
 	    continue;
