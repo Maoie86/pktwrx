@@ -710,7 +710,8 @@ void ttn_status_up(int idx, uint32_t rx_in, uint32_t rx_ok, uint32_t tx_in, uint
 	MSG("INFO: [TTN] %s RTT %ld\n",servers[idx].addr, rtt);
     }
 
-    status.hal = lgw_version_info();
+    // status.hal = lgw_version_info();
+    status.hal = "5.0.1";
 
 #ifdef MTECH
     // Get gateway temperature if available
