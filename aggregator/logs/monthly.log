@@ -1,0 +1,43 @@
+2025-01-22 02:10:23,920 - INFO - Daily Aggregator Startup
+2025-01-22 02:10:24,135 - INFO - Connected to Cassandra
+2025-01-22 02:10:24,139 - ERROR - An error occurred: name 'date' is not defined
+2025-01-22 02:11:17,368 - INFO - Daily Aggregator Startup
+2025-01-22 02:11:17,592 - INFO - Connected to Cassandra
+2025-01-22 02:11:17,774 - INFO - SELECT * FROM hourly_data  WHERE yearday >= 25001 AND yearday <= 25031 ALLOW FILTERING; 
+2025-01-22 02:11:21,538 - INFO - rows: 16559
+2025-01-22 02:11:22,076 - INFO - Inserted: 33118 records.. 
+2025-01-22 02:27:22,352 - INFO - Daily Aggregator Startup
+2025-01-22 02:27:22,574 - INFO - Connected to Cassandra
+2025-01-22 02:27:22,582 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25001 AND yearday <= 25031 ALLOW FILTERING; 
+2025-01-22 02:27:22,582 - INFO - rows: 0
+2025-01-22 02:27:22,583 - INFO - Inserted: 0 records.. 
+2025-01-22 02:27:59,343 - INFO - Daily Aggregator Startup
+2025-01-22 02:27:59,547 - INFO - Connected to Cassandra
+2025-01-22 02:27:59,700 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25001 AND yearday <= 25031 ALLOW FILTERING; 
+2025-01-22 02:27:59,793 - INFO - rows: 6544
+2025-01-22 02:28:06,727 - INFO - Inserted: 13088 records.. 
+2025-01-22 02:30:17,719 - INFO - Daily Aggregator Startup
+2025-01-22 02:30:17,920 - INFO - Connected to Cassandra
+2025-01-22 02:30:18,073 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25001 AND yearday <= 25031 ALLOW FILTERING; 
+2025-01-22 02:30:18,165 - INFO - rows: 6544
+2025-01-22 02:30:25,995 - INFO - Inserted: 13088 records.. 
+2025-01-22 02:52:36,480 - INFO - Daily Aggregator Startup
+2025-01-22 02:52:36,715 - INFO - Connected to Cassandra
+2025-01-22 02:52:36,751 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25026 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 02:52:36,751 - INFO - rows: 0
+2025-01-22 02:52:36,752 - INFO - Inserted: 0 records.. 
+2025-02-01 00:10:02,052 - INFO - Monthly Aggregator Startup
+2025-02-01 00:10:03,639 - INFO - Connected to Cassandra
+2025-02-01 00:10:03,756 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25001 AND yearday <= 25031 ALLOW FILTERING; 
+2025-02-01 00:10:05,058 - INFO - rows: 7320
+2025-02-01 00:10:12,076 - INFO - Inserted: 14640 records.. 
+2025-03-01 00:10:02,409 - INFO - Monthly Aggregator Startup
+2025-03-01 00:10:02,805 - INFO - Connected to Cassandra
+2025-03-01 00:10:02,976 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25032 AND yearday <= 25059 ALLOW FILTERING; 
+2025-03-01 00:10:05,701 - INFO - rows: 10912
+2025-03-01 00:10:16,889 - INFO - Inserted: 21824 records.. 
+2025-04-01 00:10:01,757 - INFO - Monthly Aggregator Startup
+2025-04-01 00:10:02,003 - INFO - Connected to Cassandra
+2025-04-01 00:10:02,174 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25060 AND yearday <= 25090 ALLOW FILTERING; 
+2025-04-01 00:10:10,850 - INFO - rows: 11698
+2025-04-01 00:10:24,607 - INFO - Inserted: 23396 records.. 

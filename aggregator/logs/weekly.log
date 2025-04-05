@@ -1,0 +1,120 @@
+2025-01-22 02:53:14,929 - INFO - Daily Aggregator Startup
+2025-01-22 02:53:15,140 - INFO - Connected to Cassandra
+2025-01-22 02:53:15,166 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25026 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 02:53:15,166 - INFO - rows: 0
+2025-01-22 02:53:15,167 - INFO - Inserted: 0 records.. 
+2025-01-22 02:55:57,332 - INFO - Daily Aggregator Startup
+2025-01-22 02:55:57,547 - INFO - Connected to Cassandra
+2025-01-22 02:55:57,693 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 02:55:57,770 - INFO - rows: 6544
+2025-01-22 02:55:57,799 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:01:17,008 - INFO - Weekly Aggregator Startup
+2025-01-22 03:01:17,237 - INFO - Connected to Cassandra
+2025-01-22 03:01:17,376 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:01:17,460 - INFO - rows: 6544
+2025-01-22 03:01:24,133 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:02:37,016 - INFO - Weekly Aggregator Startup
+2025-01-22 03:02:37,224 - INFO - Connected to Cassandra
+2025-01-22 03:02:37,229 - ERROR - An error occurred: name 'loggin' is not defined
+2025-01-22 03:02:57,404 - INFO - Weekly Aggregator Startup
+2025-01-22 03:02:57,618 - INFO - Connected to Cassandra
+2025-01-22 03:02:57,770 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:02:57,852 - INFO - rows: 6544
+2025-01-22 03:03:04,893 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:04:31,102 - INFO - Weekly Aggregator Startup
+2025-01-22 03:04:31,327 - INFO - Connected to Cassandra
+2025-01-22 03:04:31,331 - INFO - date: 2025-01-21 03:04:31.331780 - 2501 - 25020 - 25026
+2025-01-22 03:04:31,509 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:04:31,587 - INFO - rows: 6544
+2025-01-22 03:04:37,949 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:15:15,431 - INFO - Weekly Aggregator Startup
+2025-01-22 03:15:15,432 - WARNING - Cluster.__init__ called with contact_points specified, but load-balancing policies are not specified in some ExecutionProfiles. In the next major version, this will raise an error; please specify a load-balancing policy. (contact_points = ['192.168.97.252'], EPs without explicit LBPs = ('EXEC_PROFILE_DEFAULT', 'custom'))
+2025-01-22 03:15:15,439 - WARNING - Downgrading core protocol version from 66 to 65 for 192.168.97.252:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-01-22 03:15:15,441 - WARNING - Downgrading core protocol version from 65 to 5 for 192.168.97.252:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-01-22 03:15:15,542 - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '192.168.97.252:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-01-22 03:15:15,542 - INFO - Using datacenter 'datacenter1' for DCAwareRoundRobinPolicy (via host '192.168.97.252:9042'); if incorrect, please specify a local_dc to the constructor, or limit contact points to local cluster nodes
+2025-01-22 03:15:15,646 - INFO - Connected to Cassandra
+2025-01-22 03:15:15,651 - INFO - date: 2025-01-21 03:15:15.651056 - 2501 - 25020 - 25026
+2025-01-22 03:15:15,804 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:15:15,881 - INFO - rows: 6544
+2025-01-22 03:15:22,857 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:16:44,877 - INFO - Weekly Aggregator Startup
+2025-01-22 03:16:45,029 - ERROR - An error occurred: Clusters constructed with execution_profiles should not specify legacy parameters load_balancing_policy or default_retry_policy. Configure this in a profile instead.
+2025-01-22 03:17:19,959 - INFO - Weekly Aggregator Startup
+2025-01-22 03:17:19,960 - ERROR - An error occurred: Clusters constructed with execution_profiles should not specify legacy parameters load_balancing_policy or default_retry_policy. Configure this in a profile instead.
+2025-01-22 03:19:02,460 - INFO - Weekly Aggregator Startup
+2025-01-22 03:19:02,466 - WARNING - Downgrading core protocol version from 66 to 65 for 192.168.97.252:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-01-22 03:19:02,468 - WARNING - Downgrading core protocol version from 65 to 5 for 192.168.97.252:9042. To avoid this, it is best practice to explicitly set Cluster(protocol_version) to the version supported by your cluster. http://datastax.github.io/python-driver/api/cassandra/cluster.html#cassandra.cluster.Cluster.protocol_version
+2025-01-22 03:19:02,682 - INFO - Connected to Cassandra
+2025-01-22 03:19:02,688 - INFO - date: 2025-01-21 03:19:02.688331 - 2501 - 25020 - 25026
+2025-01-22 03:19:02,857 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:19:03,212 - INFO - rows: 6544
+2025-01-22 03:19:10,352 - INFO - Inserted: 13088 records.. 
+2025-01-22 03:20:32,575 - INFO - Weekly Aggregator Startup
+2025-01-22 03:20:32,575 - ERROR - An error occurred: __init__() got an unexpected keyword argument 'protocol_version'
+2025-01-22 03:21:28,385 - INFO - Weekly Aggregator Startup
+2025-01-22 03:21:28,598 - INFO - Connected to Cassandra
+2025-01-22 03:21:28,602 - INFO - date: 2025-01-21 03:21:28.602444 - 2501 - 25020 - 25026
+2025-01-22 03:21:28,735 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-22 03:21:28,830 - INFO - rows: 6544
+2025-01-22 03:21:35,428 - INFO - Inserted: 13088 records.. 
+2025-01-27 00:10:01,916 - INFO - Weekly Aggregator Startup
+2025-01-27 00:10:02,143 - INFO - Connected to Cassandra
+2025-01-27 00:10:02,148 - INFO - date: 2025-01-26 00:10:02.148364 - 2501 - 25020 - 25026
+2025-01-27 00:10:02,271 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25020 AND yearday <= 25026 ALLOW FILTERING; 
+2025-01-27 00:10:03,067 - INFO - rows: 7208
+2025-01-27 00:10:09,446 - INFO - Inserted: 14416 records.. 
+2025-02-03 00:10:02,438 - INFO - Weekly Aggregator Startup
+2025-02-03 00:10:02,701 - INFO - Connected to Cassandra
+2025-02-03 00:10:02,705 - INFO - date: 2025-02-02 00:10:02.705194 - 2502 - 25027 - 25033
+2025-02-03 00:10:02,856 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25027 AND yearday <= 25033 ALLOW FILTERING; 
+2025-02-03 00:10:03,521 - INFO - rows: 7111
+2025-02-03 00:10:10,742 - INFO - Inserted: 14222 records.. 
+2025-02-10 00:10:02,435 - INFO - Weekly Aggregator Startup
+2025-02-10 00:10:02,674 - INFO - Connected to Cassandra
+2025-02-10 00:10:02,680 - INFO - date: 2025-02-09 00:10:02.680509 - 2502 - 25034 - 25040
+2025-02-10 00:10:02,791 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25034 AND yearday <= 25040 ALLOW FILTERING; 
+2025-02-10 00:10:02,791 - INFO - rows: 0
+2025-02-10 00:10:02,792 - INFO - Inserted: 0 records.. 
+2025-02-17 00:10:02,207 - INFO - Weekly Aggregator Startup
+2025-02-17 00:10:03,085 - INFO - Connected to Cassandra
+2025-02-17 00:10:03,089 - INFO - date: 2025-02-16 00:10:03.089770 - 2502 - 25041 - 25047
+2025-02-17 00:10:03,248 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25041 AND yearday <= 25047 ALLOW FILTERING; 
+2025-02-17 00:10:03,710 - INFO - rows: 6887
+2025-02-17 00:10:11,662 - INFO - Inserted: 13774 records.. 
+2025-02-24 00:10:01,500 - INFO - Weekly Aggregator Startup
+2025-02-24 00:10:01,704 - INFO - Connected to Cassandra
+2025-02-24 00:10:01,706 - INFO - date: 2025-02-23 00:10:01.706106 - 2502 - 25048 - 25054
+2025-02-24 00:10:01,855 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25048 AND yearday <= 25054 ALLOW FILTERING; 
+2025-02-24 00:10:02,892 - INFO - rows: 7588
+2025-02-24 00:10:09,680 - INFO - Inserted: 15176 records.. 
+2025-03-03 00:10:01,986 - INFO - Weekly Aggregator Startup
+2025-03-03 00:10:02,215 - INFO - Connected to Cassandra
+2025-03-03 00:10:02,217 - INFO - date: 2025-03-02 00:10:02.217563 - 2503 - 25055 - 25061
+2025-03-03 00:10:02,372 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25055 AND yearday <= 25061 ALLOW FILTERING; 
+2025-03-03 00:10:03,609 - INFO - rows: 11659
+2025-03-03 00:10:14,433 - INFO - Inserted: 23318 records.. 
+2025-03-10 00:10:01,775 - INFO - Weekly Aggregator Startup
+2025-03-10 00:10:02,777 - INFO - Connected to Cassandra
+2025-03-10 00:10:02,780 - INFO - date: 2025-03-09 00:10:02.780359 - 2503 - 25062 - 25068
+2025-03-10 00:10:02,935 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25062 AND yearday <= 25068 ALLOW FILTERING; 
+2025-03-10 00:10:04,185 - INFO - rows: 9233
+2025-03-10 00:10:13,141 - INFO - Inserted: 18466 records.. 
+2025-03-17 00:10:01,957 - INFO - Weekly Aggregator Startup
+2025-03-17 00:10:02,160 - INFO - Connected to Cassandra
+2025-03-17 00:10:02,163 - INFO - date: 2025-03-16 00:10:02.163793 - 2503 - 25069 - 25075
+2025-03-17 00:10:02,311 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25069 AND yearday <= 25075 ALLOW FILTERING; 
+2025-03-17 00:10:03,787 - INFO - rows: 10237
+2025-03-17 00:10:13,399 - INFO - Inserted: 20474 records.. 
+2025-03-24 00:10:02,531 - INFO - Weekly Aggregator Startup
+2025-03-24 00:10:02,824 - INFO - Connected to Cassandra
+2025-03-24 00:10:02,830 - INFO - date: 2025-03-23 00:10:02.829934 - 2503 - 25076 - 25082
+2025-03-24 00:10:03,028 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25076 AND yearday <= 25082 ALLOW FILTERING; 
+2025-03-24 00:10:04,702 - INFO - rows: 10908
+2025-03-24 00:10:15,255 - INFO - Inserted: 21816 records.. 
+2025-03-31 00:10:01,995 - INFO - Weekly Aggregator Startup
+2025-03-31 00:10:02,233 - INFO - Connected to Cassandra
+2025-03-31 00:10:02,235 - INFO - date: 2025-03-30 00:10:02.235425 - 2503 - 25083 - 25089
+2025-03-31 00:10:02,411 - INFO - SELECT * FROM daily_data  WHERE yearday >= 25083 AND yearday <= 25089 ALLOW FILTERING; 
+2025-03-31 00:10:03,900 - INFO - rows: 10952
+2025-03-31 00:10:15,387 - INFO - Inserted: 21904 records.. 
