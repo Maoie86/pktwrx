@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+sqlalchemy
+sqlalchemy.orm
+databases[aiosqlite]
+python-dotenv
+rich
+asyncpg
+psycopg2-binary
+
+
